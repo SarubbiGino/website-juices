@@ -1,7 +1,7 @@
-Web Site - Jugos
+# Web Site - Jugos
 Este template fue creado para aprender sobre ReactJS y Material UI. 
 
-Entorno
+# Entorno
 Asegurarse de tener instalado git . Esto se puede revisar muy facilmente a trevez del comando git --version . En caso de no estar instalado, se puede hacer a travez de los siguientes paso
 
 En linux, a travez del comando sudo apt install git.
