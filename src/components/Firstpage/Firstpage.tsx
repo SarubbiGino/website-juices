@@ -3,14 +3,16 @@ import "./Firstpage.css"
 import Jugo from "../../img/grid.png"
 
 
+
+
 function Firstpage() {
   return (
     <div className='rectanguloUno' >
       <div className='contenedor'>
-        <div className='jugo' >
+        <div className='jugo'  >
           <img src={Jugo} alt="Jugo de naranja natural" className='img' />
         </div>
-        <div className='detalles' >
+        <div className='detalles'>
           <div className='titulos'>
             <h1 className='h1'>Orange </h1>
             <h1 className='h1'>Juice </h1>

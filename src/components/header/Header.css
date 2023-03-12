@@ -23,7 +23,15 @@
     font-weight: bolder;
 
 }
-
+.animated-title {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .animated-title:hover {
+    transform: scale(1.1) rotate(2deg);
+  }
+  
 
 .hrefs {
     position: relative;

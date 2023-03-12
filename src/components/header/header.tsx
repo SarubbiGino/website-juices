@@ -6,7 +6,7 @@ function header() {
     return (
         <div>
             <header className="header">
-                <h1>OrangeJuice</h1>
+                <h1 className='animated-title'>OrangeJuice</h1>
                 <nav className='Nav'>
                     <ul className='Ul'>
                         <li className='hrefs active'>Home</li>
