@@ -1,0 +1,74 @@
+.contenedor {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+.rectanguloUno{
+    background-color: orange;
+    width: 100%;
+    height: 20px;
+   
+}
+.rectanguloDos{
+    background-color: orange;
+    width: 100%;
+    height: 20px;
+    margin-top: -10px;
+ 
+}
+.detalles {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+}
+.h1 {
+    color: orange;
+    font-size: 65px;
+}
+.parrafo {
+    color: rgb(119, 66, 12);
+    font-size: 17px;
+}
+.jugo {
+    display: flex;
+    margin-top: -100px;
+    width: 50%;
+    z-index: 10;
+    filter: drop-shadow(20px 2px 4px rgba(58, 58, 58, 0.212));
+}
+
+/*BOTONES COMPRAR Y MAS INFO*/
+.btn {
+    background-color: orange;
+    border: 1px solid rgb(248, 248, 248);
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: 25px;
+    transition: all .5s;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 2px solid orange;
+    height: 65px;
+    color:orange;
+    border-radius: 6px;
+    font-size: 25px;
+    transition: all .5s;
+}
+
+.btn:hover {
+    background-color: rgb(255, 200, 89);
+}
+
+.btn2:hover {
+    background-color: orange;
+    color: white;
+    
+}
+

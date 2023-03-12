@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    color: orange;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    gap: 50px;
+    color: rgb(255, 174, 0);
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+
+.hrefs {
+    position: relative;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.titulo {
+    margin-top: 0px;
+}
+
+
+.contenedorNaranja {
+    position: absolute;
+    right: 0px;
+    top: -140px;
+
+}
+
+
+.hrefs::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease-in-out;
+}
+
+.hrefs:hover::before {
+    width: 100%;
+}
+
+.hrefs.active::before {
+    width: 100%;
+  }
+  
