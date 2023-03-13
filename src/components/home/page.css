@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  background-color:#f6f6dc;
+  text-align: center;
+  
+}
+.img2{
+  position: absolute;
+  top: -25%;
+  left: -10%;
+}
+
+.img{
+    width: 600px;
+    height: 600px;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-evenly ;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+.rectanguloUno{
+  background-color: #ff3d39;
+  width: 100%;
+  height: 20px;
+ 
+}
+.rectanguloDos{
+  background-color: #ff3d39;
+  width: 100%;
+  height: 20px;
+  margin-top: 15px;
+}
+.detalles {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+}
+.h1 {
+  color: #ff3d39;
+  font-size: 65px;
+  font-weight: bold;
+}
+.parrafo {
+  color: rgb(119, 66, 12);
+  font-size: 17px;
+}
+.jugo {
+  display: flex;
+  z-index: 10;
+  filter: drop-shadow(20px 2px 4px rgba(58, 58, 58, 0.212));
+  transform: scale(1.5);
+  margin-top: -70px;
+}
+
+
+
+/*BOTONES COMPRAR Y MAS INFO*/
+.btn {
+  background-color: #ff3d39;
+  border: 1px solid rgb(248, 248, 248);
+  height: 50px;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  font-size: 25px;
+  transition: all .5s;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: 2px solid #ff3d39;
+  height: 65px;
+  color:#ff643f;
+  border-radius: 6px;
+  font-size: 25px;
+  transition: all .5s;
+}
+
+.btn:hover {
+  background-color:rgb(190, 72, 72);
+}
+
+.btn2:hover {
+  background-color: #ff3d39;
+  color: white;
+  
+}
