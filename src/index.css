@@ -1,13 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+/* 
+.contenedor {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  margin-top: 100px;
+  gap: 50px;
+}
+.rectanguloUno{
+  background-color: orange;
+  width: 100%;
+  height: 20px;
+}
+.rectanguloDos{
+  background-color: orange;
+  width: 100%;
+  height: 20px;
+  margin-top: -10px;
+
+}
+.detalles {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+}
+.h1 {
+  color: orange;
+  font-size: 65px;
+}
+.parrafo {
+  color: rgb(119, 66, 12);
+  font-size: 17px;
+}
+.jugo {
+  display: flex;
+  margin-top: -100px;
+  width: 50%;
+  z-index: 10;
+  filter: drop-shadow(20px 2px 4px rgba(58, 58, 58, 0.212));
+  
+}
+
+/*BOTONES COMPRAR Y MAS INFO*/
+/* .btn {
+  background-color: orange;
+  border: 1px solid rgb(248, 248, 248);
+  height: 50px;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  font-size: 25px;
+  transition: all .5s;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: 2px solid orange;
+  height: 65px;
+  color:orange;
+  border-radius: 6px;
+  font-size: 25px;
+  transition: all .5s;
+}
+
+.btn:hover {
+  background-color: rgb(255, 200, 89);
+}
+
+.btn2:hover {
+  background-color: orange;
+  color: white;
+  
+}
+
+
+/*media querys*/
+/* @media screen and (max-width: 1774px) {
+  .detalles {
+      width: 500px;
+  }
+  .h1 {
+      font-size: 55px;
+  }
+  .parrafo {
+      font-size: 15px;
+  }
+  .jugo {
+      width: 60%;
+  }
+ 
+ 
+}
+
+
+@media screen and (max-width: 1445px) {
+.contenedor {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center ;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  gap: 200px;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.detalles   {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+
+}
+.titulos{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+}   
+
+@media screen and (max-width: 700px) {
+  .rectanguloDos{
+   display: none;
+  }
+  .rectanguloUno{
+   display: none;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 600px) {
+ .contenedor{
+  margin: 20px;
+ }
+ 
+ 
+}  */ 

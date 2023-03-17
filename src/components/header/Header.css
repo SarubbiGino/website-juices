@@ -1,0 +1,164 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+  color: orange;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  gap: 50px;
+  color: rgb(255, 174, 0);
+  font-size: 16px;
+  font-weight: bolder;
+
+}
+
+.juices {
+  color: rgb(252, 85, 85);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(255, 174, 0);
+  font-size: 16px;
+
+}
+
+.animated-title {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-title:hover {
+  transform: scale(1.1) rotate(2deg);
+}
+
+
+.hrefs {
+  position: relative;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+
+.titulo {
+  margin-top: 0px;
+}
+
+
+.contenedorNaranja {
+  position: absolute;
+  right: 0px;
+  top: -140px;
+
+}
+
+
+.hrefs::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
+
+.hrefs:hover::before {
+  width: 100%;
+}
+
+.hrefs.active::before {
+  width: 100%;
+}
+
+
+.img2Frutiila {
+  position: absolute;
+  top: -13%;
+  right: 0%;
+
+}
+
+.imgJugo {
+  width: 290px;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1920px) {
+  .iconBur {
+    display: none;
+  }
+  
+}
+
+
+@media screen and (max-width: 1779px) {
+  .imgJugo {
+    width: 260px;
+
+  }
+  .iconBur {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1374px) {
+  .imgJugo {
+    width: 200px;
+
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .animated-title {
+    font-size: 30px;
+  }
+
+  .Nav {
+    display: none;
+  }
+
+  .img2Frutiila {
+    display: none;
+  }
+
+  .imgJugo {
+    display: none;
+  }
+
+  .iconBur {
+    display: block;
+  }
+
+
+}
+
+/*
+BTN HAMBURGUESA
+*/
+
+.iconBur{
+
+ font-size: 25px;
+ background-color: transparent;
+ border: none;
+ color: rgb(255, 180, 42);
+}

@@ -1,0 +1,154 @@
+.contenedorGeneral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    height: 100%;
+  }
+  
+  .jugo {
+    flex: 1;
+    z-index: 10;
+    margin-right: 2rem;
+  }
+  
+  .img {
+    width: 700px;
+    height: 700px;
+  
+  }
+  
+  .detalles {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    color: #333;
+    padding: 1rem;
+    gap: 20px;
+  }
+  
+  .titulos {
+    color: orange;
+  }
+  
+  .h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .parrafo {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  .btn {
+    background-color: orange;
+    border: 1px solid rgb(248, 248, 248);
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: 25px;
+    transition: all .5s;
+    width: 100%;
+  }
+  
+  .btn2 {
+    background-color: transparent;
+    border: 2px solid orange;
+    height: 65px;
+    color:orange;
+    border-radius: 6px;
+    font-size: 25px;
+    transition: all .5s;
+    width: 100%;
+  }
+  
+  .btn:hover {
+    background-color: rgb(255, 200, 89);
+  }
+  
+  .btn2:hover {
+    background-color: orange;
+    color: white;
+    
+  }
+
+
+
+
+  @media (max-width: 1256px) {
+   .parrafo{
+        font-size: 14px;
+   }
+   .img{
+        width: 600px;
+        height: 600px;
+   }
+   .btn{
+        font-size: 20px;
+   }
+    .btn2{
+          font-size: 20px;
+    }
+  }
+  
+  
+  @media (max-width: 1101px) {
+    .contenedor{
+        flex-direction: column-reverse;
+        gap: 100px;
+      
+    }
+    .img{
+        width: 500px;
+        height: 500px;
+    }
+   }
+   
+
+
+
+
+
+  @media (max-width: 768px) {
+   
+  
+    .jugo, .detalles {
+      margin: 0;
+      width: 100%;
+    }
+    
+    .img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .h1{
+        font-size: 3rem;
+    }
+  
+
+  }
+  
+
+  .naranjas{
+   position: absolute;
+    bottom: 0;
+    left: -3%;
+  }
+.imgnaranja{
+  width: 200px;
+}

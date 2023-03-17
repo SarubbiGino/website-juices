@@ -1,0 +1,152 @@
+
+.img2Frutiila{
+  position: absolute;
+  top: -340%;
+  right:0%;
+
+}
+
+.imgFrutilla{
+  width: 800px;
+}
+
+.contenedorGeneralFrutilla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.contenedorFrutilla {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+  height: 100%;
+}
+
+.jugoFrutilla {
+  flex: 1;
+  z-index: 10;
+  margin-right: 2rem;
+}
+
+
+
+.detallesFrutilla {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  color: #333;
+  padding: 1rem;
+  gap: 20px;
+}
+
+.titulosFrutilla {
+  color: rgb(250, 51, 1);
+}
+
+.h1Frutilla {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.parrafoFrutilla {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.btnFrutilla {
+  background-color: rgb(245, 34, 7);
+  border: 1px solid rgb(248, 248, 248);
+  height: 50px;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  font-size: 25px;
+  transition: all .5s;
+  width: 100%;
+}
+
+.btn2Frutilla {
+  background-color: transparent;
+  border: 2px solid rgb(255, 30, 0);
+  height: 65px;
+  color:rgb(255, 8, 0);
+  border-radius: 6px;
+  font-size: 25px;
+  transition: all .5s;
+  width: 100%;
+}
+
+.btnFrutilla:hover {
+  background-color: rgb(247, 84, 84);
+}
+
+.btn2Frutilla:hover {
+  background-color: rgb(240, 75, 53);
+  color: white;
+  
+}
+
+
+
+
+@media (max-width: 1256px) {
+ .parrafoFrutilla{
+      font-size: 14px;
+ }
+ .imgFrutilla{
+      width: 600px;
+      height: 600px;
+ }
+ .btnFrutilla{
+      font-size: 20px;
+ }
+  .btn2Frutilla{
+        font-size: 20px;
+  }
+}
+
+
+@media (max-width: 1101px) {
+  .contenedorFrutilla{
+      flex-direction: column-reverse;
+      gap: 100px;
+    
+  }
+  .imgFrutilla{
+      width: 500px;
+      height: 500px;
+  }
+ }
+ 
+
+
+
+
+
+@media (max-width: 768px) {
+ 
+
+  .jugoFrutilla, .detallesFrutilla {
+    margin: 0;
+    width: 100%;
+  }
+  
+  .imgFrutilla{
+      width: 400px;
+      height: 400px;
+  }
+
+  .h1Frutilla{
+      font-size: 3rem;
+  }
+
+
+}
