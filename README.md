@@ -1,7 +1,7 @@
-#Página de Jugos
+# Página de Jugos
 Este proyecto tiene como objetivo crear una página web para una tienda de jugos. Se utiliza React y varias bibliotecas y herramientas para el desarrollo de la interfaz de usuario.
 
-##Instalación
+## Instalación
 Clona este repositorio en tu máquina.
 
 Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
@@ -9,7 +9,7 @@ Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 ```bash 
     npm install
   ```
-#Uso
+## Uso </br>
 Para ejecutar el proyecto en modo de desarrollo, utiliza el siguiente comando:
 
 ```bash 
