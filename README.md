@@ -1,36 +1,46 @@
-# Web Site - Jugos
-Este template fue creado para aprender sobre ReactJS y Material UI. 
+#Página de Jugos
+Este proyecto tiene como objetivo crear una página web para una tienda de jugos. Se utiliza React y varias bibliotecas y herramientas para el desarrollo de la interfaz de usuario.
 
-## Entorno
+##Instalación
+Clona este repositorio en tu máquina.
 
-Asegurarse de tener instalado `git` . Esto se puede revisar muy facilmente a trevez del comando `git --version` . En caso de no estar instalado, se puede hacer a travez de los siguientes paso
+Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
-- En linux, a travez del comando `sudo apt install git`.
-- En Windows, a travez de la pagina oficial https://git-scm.com/
+```bash 
+    npm install
+  ```
+#Uso
+Para ejecutar el proyecto en modo de desarrollo, utiliza el siguiente comando:
 
-Procurar tener actualizado `node.js` a la versión `lts`. Si desea asegurarse, puede ejecutar el comando `npm doctor` que le indicara si cumple con los requisitos. Si el comando no se encuentra o `node.js` esta desactualizado, puede instalar `node.js --lts` mediante alguno de los siguientes pasos
+```bash 
+    npm run start
+  ```
 
-- En windows, desde la [pagina oficial](https://nodejs.org/en/), descargando y ejecutando la versión `lts`.
+Esto iniciará un servidor local y podrás ver la página web en tu navegador en la dirección http://localhost:3000. Los cambios que realices en los archivos se reflejarán automáticamente en tu navegador.
 
-- En Linux, a través de [nvm](https://github.com/nvm-sh/nvm) 
+Para compilar el proyecto en una versión de producción, utiliza el siguiente comando:
 
-  - Abrir una terminal y ejecutar el comando que se encuentra en la sección [Install & update script](https://github.com/nvm-sh/nvm#install--update-script)
+```bash 
+    npm run build
+  ```
+Esto creará una versión optimizada del proyecto en la carpeta /build.
 
-  - Cerrar la terminal y abrir otra para ejecutar el siguiente comando para verificar la correcta instalación`nvm --version` . Una vez observada la versión, ejecutar el siguiente comando para instalar Node.js
+## Tecnologías
+Este proyecto utiliza las siguientes tecnologías:
 
-    ```bash
-    nvm install --lts
-    ```
+React
+React Router
+Material-UI
+Emotion
+Animate.css
+React Spring
+React Icons
+TypeScript
+Web Vitals
+Contribuciones
+Las contribuciones son bienvenidas. Si encuentras algún problema o quieres hacer una sugerencia, no dudes en abrir un issue en este repositorio.
 
+## Licencia
+Este proyecto está bajo la Licencia MIT. Para obtener más información, consulta el archivo LICENSE incluido en este repositorio.
 
-## Instalación y ejecución
-
-- 🛠Para instalar las dependencias ejecutar el siguiente comando `npm install`
-- ⚒Para ejecutar el modo playground o repl, ejecutar el siguiente comando `npm run dev`
-- 🔧Para traducir el código en `/src` a `JavaScript` , usar el comando `npm run build`
-- 🔑Para ejecutar el código con `Node.js`, usar el comando `npm run start`
-
-## Características
-
-- [TypeScript](https://www.typescriptlang.org/)
-- [Material UI](https://mui.com/core/)
+¡Gracias por utilizar esta página de jugos basada en React! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con el equipo de desarrollo.
