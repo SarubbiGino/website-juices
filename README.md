@@ -28,16 +28,17 @@ Esto creará una versión optimizada del proyecto en la carpeta /build.
 ## Tecnologías
 Este proyecto utiliza las siguientes tecnologías:
 
-React
-React Router
-Material-UI
-Emotion
-Animate.css
-React Spring
-React Icons
-TypeScript
-Web Vitals
-Contribuciones
+React </br>
+React Router </br>
+Material-UI </br>
+Emotion </br>
+Animate.css </br>
+React Spring </br>
+React Icons </br>
+TypeScript </br>
+Web Vitals </br>
+
+## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras algún problema o quieres hacer una sugerencia, no dudes en abrir un issue en este repositorio.
 
 ## Licencia
